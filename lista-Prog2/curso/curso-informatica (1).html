@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Técnico em Informática</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header id="topo">
+    <h1>Curso Técnico em Informática</h1>
+    <p class="slogan">Aprenda a criar, manter e proteger os sistemas que movem o mundo digital</p>
+    <a class="btn btn-destaque" href="#contato">Quero me inscrever</a>
+    <nav class="menu">
+      <ul class="menu-lista">
+        <li><a class="menu-link" href="#sobre">Sobre o curso</a></li>
+        <li><a class="menu-link" href="#areas">Áreas de estudo</a></li>
+        <li><a class="menu-link" href="#grade">Grade curricular</a></li>
+        <li><a class="menu-link" href="#mercado">Mercado de trabalho</a></li>
+        <li><a class="menu-link" href="#contato">Inscrição</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="bloco" id="sobre">
+      <h2>Sobre o curso</h2>
+      <p>
+        O curso técnico em Informática forma profissionais capazes de atuar no desenvolvimento
+        de software, na manutenção de computadores e redes e no suporte a usuários. A proposta
+        combina teoria e prática, com aulas em laboratório e projetos reais.
+      </p>
+      <p>
+        Ao longo da formação, o aluno aprende lógica de programação, banco de dados,
+        desenvolvimento web e noções de segurança da informação, construindo um portfólio
+        que ajuda na entrada no mercado.
+      </p>
+      <figure class="figura">
+        <img src="imagem-informatica.svg" alt="Ilustração de um notebook exibindo linhas de código">
+        <figcaption>A programação é uma das bases do curso.</figcaption>
+      </figure>
+    </section>
+
+    <section class="bloco" id="areas">
+      <h2>Áreas de estudo</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Programação</h3>
+          <p>Lógica, algoritmos e linguagens de programação para criar aplicações e sistemas.</p>
+        </article>
+        <article class="card">
+          <h3>Banco de dados</h3>
+          <p>Modelagem, criação e consulta de bancos de dados utilizando SQL.</p>
+        </article>
+        <article class="card">
+          <h3>Redes e suporte</h3>
+          <p>Montagem e manutenção de computadores, configuração de redes e atendimento ao usuário.</p>
+        </article>
+        <article class="card">
+          <h3>Desenvolvimento web</h3>
+          <p>Criação de páginas e sistemas para a internet com HTML, CSS e JavaScript.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="bloco" id="diferenciais">
+      <h2>O que você vai aprender</h2>
+      <ul>
+        <li>Resolver problemas com lógica de programação;</li>
+        <li>Desenvolver páginas e sistemas web;</li>
+        <li>Projetar e consultar bancos de dados;</li>
+        <li>Montar, configurar e dar manutenção em computadores;</li>
+        <li>Configurar redes e entender noções de segurança da informação;</li>
+        <li>Trabalhar em equipe e apresentar projetos.</li>
+      </ul>
+    </section>
+
+    <section class="bloco" id="grade">
+      <h2>Grade curricular</h2>
+      <p>Exemplo de organização das disciplinas ao longo do curso:</p>
+      <div class="tabela-wrapper">
+        <table class="tabela">
+          <caption>Disciplinas por módulo</caption>
+          <thead>
+            <tr>
+              <th>Módulo</th>
+              <th>Disciplina</th>
+              <th>Carga horária</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>Lógica de Programação</td><td>80 h</td></tr>
+            <tr><td>1</td><td>Montagem e Manutenção de Computadores</td><td>60 h</td></tr>
+            <tr><td>2</td><td>Banco de Dados</td><td>80 h</td></tr>
+            <tr><td>2</td><td>Desenvolvimento Web</td><td>80 h</td></tr>
+            <tr><td>3</td><td>Redes de Computadores</td><td>60 h</td></tr>
+            <tr><td>3</td><td>Programação Orientada a Objetos</td><td>80 h</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="bloco" id="mercado">
+      <h2>Mercado de trabalho</h2>
+      <p>
+        O técnico em Informática pode atuar em empresas de tecnologia, em departamentos de TI
+        de organizações de qualquer porte, em lojas de informática ou como profissional
+        autônomo. As funções mais comuns são desenvolvedor júnior, técnico de suporte,
+        auxiliar de redes e analista de testes.
+      </p>
+    </section>
+
+    <section class="bloco" id="contato">
+      <h2>Quero saber mais</h2>
+      <p>Preencha o formulário abaixo e entraremos em contato com mais informações sobre o curso.</p>
+      <form class="formulario" action="#" method="post">
+        <div class="campo">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo">
+          <label for="turno">Turno de preferência</label>
+          <select id="turno" name="turno">
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer id="rodape">
+    <p>&copy; 2026 Curso Técnico em Informática. Todos os direitos reservados.</p>
+    <p>Contato: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+  </footer>
+
+</body>
+</html>
