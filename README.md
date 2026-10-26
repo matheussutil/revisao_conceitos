@@ -45,4 +45,4 @@ da posição. Uma lista é a melhor opção.
 
 # Questão 14 - Explique o que pode acontecer ao tentar excluir um registro relacionado a outros registros.
 
-Apagar o registro “pai” (como um usuário, um livro ou um autor) deixaria os registros “filhos” (como empréstimos e vínculos em livros_autores) apontando para algo que não existe mais, quebrando a integridade. Para excluir com segurança, é preciso apagar primeiro os registros dependentes e só depois o registro principal, seguindo a ordem dos filhos para os pais.
+Apagar o registro “pai” deixaria os registros “filhos” apontando para algo que não existe mais, quebrando a integridade. Para excluir com segurança, é preciso apagar primeiro os registros dependentes e só depois o registro principal, seguindo a ordem dos filhos para os pais.
