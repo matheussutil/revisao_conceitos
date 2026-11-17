@@ -1,0 +1,24 @@
+# Projeto: Requisição HTTP e API
+
+**Objetivo:** Desenvolver um programa utilizando JavaScript para consultar informações de personagens por meio de uma API pública.
+
+**API utilizada:** Rick and Morty API  
+https://rickandmortyapi.com/api/character
+
+**Funcionamento:**
+
+O programa utiliza o método HTTP GET, por meio da função `fetch()`, para consultar os personagens da série Rick and Morty.
+
+Após receber a resposta do servidor, verifica o código HTTP para identificar se a requisição foi realizada com sucesso.
+
+Em seguida, utiliza `response.json()` para interpretar os dados recebidos e `forEach()` para percorrer os personagens, apresentando nome, imagem, espécie e status na página.
+
+O programa também utiliza `try/catch` para tratar possíveis erros e `finally` para reativar o botão de consulta após a execução.
+
+**Tecnologias utilizadas:**
+- HTML5
+- CSS3
+- JavaScript
+- API REST
+- HTTP GET
+- JSON
